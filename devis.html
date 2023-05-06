@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang=fr-FR>
+<head>
+<meta charset=UTF-8>
+<meta http-equiv=X-UA-Compatible content="IE=edge">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<title> OBTENIR UN DEVIS </title>
+<link rel=preconnect href=https://fonts.gstatic.com crossorigin=crossorigin />
+<link rel=preload as=style href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&amp;display=swap" />
+<link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&amp;display=swap" media=print onload="this.media='all'" />
+<noscript>
+<link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&amp;display=swap" />
+</noscript>
+<link href="./css/font-awesome/css/all.min.css?ver=1.2.0" rel=stylesheet>
+<link href="./css/bootstrap-icons/bootstrap-icons.css?ver=1.2.0" rel=stylesheet>
+<link href="./css/bootstrap.min.css?ver=1.2.0" rel=stylesheet>
+<link href="./css/aos.css?ver=1.2.0" rel=stylesheet>
+<link href="./css/main.css?ver=1.2.0" rel=stylesheet>
+<link rel=stylesheet href="./css/partenariat.scss?ver=1.2.0">
+<meta name=title content="DEVIS | Batiproassur">
+<meta name=description content="assurance digitale offre rapidité, accessibilité facile et interface conviviale.Cette digitalisation permet la mise en œuvre de meilleurs services.">
+<meta name=keywords content="assurances,assurance,assuranceauto,mutuelle,like,conseil,immobilier,assurancevie,courtier,insurance,assurancehabitation,france,lifeinsurance,mae,solution,
+      instadaily,followme,optimisme,safety,positivevibes,smile,agencemae,office,protect,courtage,instacar,picoftheday,automobile,s,assurancemaladie,RC & DECENNALE,DOMMAGES OUVRAGE,
+      RC PRO,PROFESSIONS INTELLECTUELLES DU BATIMENT,MULTIRISQUES LOCAL,FLOTTE DE VEHICULES ENTREPRISE,REDRESSEMENT JUDICIAIRE,RESILIE POUR NON PAIEMENT,ASSURANCE TAXI ET VTC,
+      RESILIE POUR NON PAIEMENT,ASSURANCE TAXI ET VTC,Assurance Auto,Assurance Moto,Assurance Habitation  ,Assurance santé,Assurance scolaire,Résilié pour non-paiement,
+      assurancehabitation,assurance,assuranceauto,assurancevie,courtier,assurances,conseil,immobilier,mutuelle,insurance,lifeinsurance,assurancemaladie,investissement,france,
+      carinsurance,automobile,assuranceautomobile,like,assurancevoyage,followme,sinistre,hypotheque,re,assurancecommerciale,assurancedecennale,placement,banque,assurancepro,
+      prevoyance,solution">
+<meta name=robots content="index, follow">
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=language content=French>
+<meta name=author content="Ayoub Choukri">
+<style>.lead{font-size:1rem!important}</style>
+</head>
+<body id=top>
+<header class=bg-light>
+<nav class="navbar navbar-expand-lg navbar-light bg-light" id=header-nav role=navigation>
+<div class=container><a class="link-dark navbar-brand site-title mb-0" href=/><img src=./images/logo.png width=100px alt></a>
+<button class=navbar-toggler type=button data-bs-toggle=collapse data-bs-target=#navbarSupportedContent aria-controls=navbarSupportedContent aria-expanded=false aria-label="Toggle navigation"><span class=navbar-toggler-icon></span></button>
+<div class="collapse navbar-collapse" id=navbarSupportedContent>
+<ul class="navbar-nav ms-auto me-2">
+<li class=nav-item><a class=nav-link href=/>Accueil</a></li>
+<li class=nav-item><a class=nav-link href=/#about>A propos</a></li>
+<li class=nav-item><a class=nav-link href=/#services>Services</a></li>
+<li class=nav-item><a class=nav-link href=politique-de-confidentialité.html>Politique de
+confidentialité</a></li>
+<li class=nav-item><a class=nav-link href=mentions-légales.html>Mentions légales</a></li>
+<li class=nav-item><a class=nav-link href=/#contact>Contact</a></li>
+</ul><a class="btn btn-primary" href=devis.html>OBTENIR UN DEVIS</a>
+</div>
+</div>
+</nav>
+</header>
+<div class=page-content>
+<div id=content>
+<div class="section py-3 py-lg-5 px-2 px-lg-4" id=contact>
+<div class=container-narrow>
+<div class="text-center mb-5">
+<h2 class="marker marker-center">OBTENIR UN DEVIS</h2>
+</div>
+<div class=row>
+<div class=col-md-6 data-aos=zoom-in data-aos-delay=100>
+<div class="bg-light my-2 p-3 pt-2">
+<form action=https://ayoubchoukri.000webhostapp.com/batiproassur/contact.php method=POST>
+<div class="form-group my-2">
+<label for=Nom class="form-label fw-bolder">Nom : </label>
+<input class=form-control type=text id=Nom name=Nom placeholder="Votre Nom" required>
+<input style=display:none name=c value=1 required>
+</div>
+<div class="form-group my-2">
+<label for=Prenom class="form-label fw-bolder">Prenom : </label>
+<input class=form-control type=text id=Prenom name=Prenom placeholder="Votre Prenom" required>
+</div>
+<div class="form-group my-2">
+<label for="Adresse mail" class="form-label fw-bolder">Adresse mail : </label>
+<input class=form-control type=email id="Adresse mail" name=mail placeholder="Votre Adresse mail" required>
+</div>
+<div class="form-group my-2">
+<label for=Telephone class="form-label fw-bolder">Telephone : </label>
+<input class=form-control type=tel id=Telephone name=Telephone placeholder="Votre Telephone" required>
+</div>
+<div class="form-group my-2">
+<label for=Services class="form-label fw-bolder">Services : </label>
+<select class=form-control name=Services id=Services onchange=show(this) required>
+<option value disabled selected hidden>Choisir le type d'assurance
+</option>
+<optgroup label="POUR LES PROFESSIONNELS">
+<option value="RC & DECENNALE">RC & DECENNALE</option>
+<option value="DOMMAGES OUVRAGE">DOMMAGES OUVRAGE</option>
+<option value="RC PRO">RC PRO</option>
+<option value="PROFESSIONS INTELLECTUELLES DU BATIMENT">PROFESSIONS
+INTELLECTUELLES DU BATIMENT</option>
+<option value="MULTIRISQUES LOCAL">MULTIRISQUES LOCAL</option>
+<option value="FLOTTE DE VEHICULES ENTREPRISE">FLOTTE DE VEHICULES
+ENTREPRISE</option>
+<option value="REDRESSEMENT JUDICIAIRE">REDRESSEMENT JUDICIAIRE</option>
+<option value="RESILIE POUR NON PAIEMENT">RESILIE POUR NON PAIEMENT
+</option>
+<option value="ASSURANCE TAXI ET VTC">ASSURANCE TAXI ET VTC</option>
+</optgroup>
+<optgroup label="POUR LES PARTICULIERS ">
+<option value="ASSURANCE AUTO">ASSURANCE AUTO</option>
+<option value="ASSURANCE MOTO">ASSURANCE MOTO</option>
+<option value="ASSURANCE HABITATION">ASSURANCE HABITATION </option>
+<option value="ASSURANCE SANTÉ">ASSURANCE SANTÉ</option>
+<option value="ASSURANCE SCOLAIRE">ASSURANCE SCOLAIRE</option>
+<option value="RÉSILIÉ POUR NON-PAIEMENT">RÉSILIÉ POUR NON-PAIEMENT
+</option>
+</optgroup>
+</select>
+</div>
+<div class="form-group my-2" id=mat style=display:none>
+<label for=matricule class="form-label fw-bolder">Matricule : </label>
+<input class=form-control type=text id=matricule name=matricule placeholder="Numéro du matricule">
+</div>
+<div class="form-group my-2">
+<label for=Commentaire class="form-label fw-bolder">Commentaire : </label>
+<br>
+<textarea class="form-label fw-bolder" name=Commentaire id=Commentaire style=width:100% rows=5></textarea>
+</div>
+<script>function show(a){let optgroup=a.options[a.options.selectedIndex].closest("optgroup").getAttribute("label");if(optgroup=="POUR LES PROFESSIONNELS"){document.getElementById("mat").style.display="block"}else{document.getElementById("mat").style.display="none"}};</script>
+<button class="btn btn-primary mt-2" type=submit>Envoyer</button>
+</form>
+</div>
+</div>
+<div class=col-md-6 data-aos=fade-left data-aos-delay=300>
+<div class="mt-3 px-2">
+<img src=./images/illustrations/Mention-bro.svg alt>
+</div>
+</div>
+</div>
+</div>
+</div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2626.2769721380514!2d2.3225689156735196!3d48.833855379285104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671b4330bd77d%3A0xf2970a850118722e!2s149%20Av.%20du%20Maine%2C%2075014%20Paris%2C%20France!5e0!3m2!1sfr!2sus!4v1676740401636!5m2!1sfr!2sus" width=100% height=400 style=border:0 allowfullscreen loading=lazy referrerpolicy=no-referrer-when-downgrade></iframe>
+<footer class="py-5 px-2 bg-light" id=footer>
+<div class=container>
+<div class=row>
+<div class="col-lg-3 col-md-12 mb-3">
+<div class=mb-3>
+<div class=h4>Batiproassur</div>
+<p class=text-muted style=text-align:justify> assurance digitale offre rapidité,
+agilité, accessibilité facile et interface
+conviviale. Cette digitalisation permet la mise en œuvre de meilleurs services.
+</p>
+<div class=social-nav>
+<nav role=navigation>
+<ul class="nav text-light">
+<li class=nav-item><a class=nav-link href=https://www.linkedin.com/in/batiproassur-assurance-44b860266/ title=LinkedIn><i class="fab fa-linkedin"></i><span class="menu-title sr-only">LinkedIn</span></a></li>
+<li class=nav-item><a class=nav-link href="https://www.facebook.com/profile.php?id=100081224635308" title=Facebook><i class="fab fa-facebook"></i><span class="menu-title sr-only">Facebook</span></a></li>
+<li class=nav-item><a class=nav-link href="https://www.instagram.com/batiproassur/?igshid=ZDdkNTZiNTM%3D" title=Instagram><i class="fab fa-instagram"></i><span class="menu-title sr-only">Instagram</span></a></li>
+<li class=nav-item><a class=nav-link href="https://www.tiktok.com/@batiproassur.2023?_t=8a8vrhHvz9x&_r=1" title=tiktok><i class="fab fa-tiktok"></i><span class="menu-title sr-only">tiktok</span></a></li>
+<li class=nav-item><a class=nav-link href=https://youtube.com/@batiproassur title=youtube><i class="fab fa-youtube"></i><span class="menu-title sr-only">youtube</span></a></li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 mb-3">
+<div class="text-uppercase mb-2">Services</div>
+<div class="nav flex-column">
+<a class="nav-link px-0" href="services.html?c=10"> Assurance Auto</a>
+<a class="nav-link px-0" href="services.html?c=12">Assurance Habitation </a>
+<a class="nav-link px-0" href="services.html?c=13">Assurance santé</a>
+<a class="nav-link px-0" href="services.html?c=1">RC & DECENNALE</a>
+<a class="nav-link px-0" href="services.html?c=2">DOMMAGES OUVRAGE</a>
+<a class="nav-link px-0" href="services.html?c=3">RC PRO</a>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 mb-3">
+<div class="text-uppercase mb-2">liens utiles</div>
+<div class="nav flex-column">
+<a class="nav-link px-0" href=/>Accueil</a>
+<a class="nav-link px-0" href=politique-de-confidentialité.html>Politique de
+confidentialité</a>
+<a class="nav-link px-0" href=mentions-légales.html>Mentions légales</a>
+<a class="nav-link px-0" href=#services>Services</a>
+<img src=./images/clients/Orias.png width=100px alt>
+<img src=./images/clients/acpr.png width=100px alt>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 mb-3">
+<div class="text-uppercase mb-2">Contactez-nous</div>
+<div class=text-small>
+<address>
+149, Avenue du Maine 75014 Paris.
+<br> ORIAS 22007477
+<br> R.C.S 920181989
+</address>
+<div class=mb-1><strong>Tel:</strong><br />0188611434</div>
+<div class=mb-1><strong>WhatsApp :</strong><br />0680907720</div>
+<div class=mb-1><strong>Email:</strong><br />contact@batiproassur.fr</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+</div>
+</div>
+<div id=scrolltop><a class="btn btn-secondary" href=#top><span class=icon><i class="fas fa-angle-up fa-x"></i></span></a></div>
+<div id=btnwhatsapp><a class href=https://wa.me/212680907720 target=_blank><img src=./images/whatsapp.png width=50px alt> </a></div>
+<script src="./scripts/imagesloaded.pkgd.min.js?ver=1.2.0"></script>
+<script src="./scripts/masonry.pkgd.min.js?ver=1.2.0"></script>
+<script src="./scripts/BigPicture.min.js?ver=1.2.0"></script>
+<script src="./scripts/purecounter.min.js?ver=1.2.0"></script>
+<script src="./scripts/bootstrap.bundle.min.js?ver=1.2.0"></script>
+<script src="./scripts/aos.min.js?ver=1.2.0"></script>
+<script src="./scripts/main.js?ver=1.2.0"></script>
+</body>
+</html>
